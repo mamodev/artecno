@@ -4,10 +4,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 const projects = [
-  { title: "Panificio Tecchiolli", category: "Industrial", year: "2023", img: "/images/projects/p3.jpg" },
-  { title: "Residenza Aurora", category: "Residential", year: "2022", img: "/images/projects/p4.jpg" },
-  { title: "Villa Verticale", category: "Architecture", year: "2021", img: "/images/projects/p1.jpg" },
-  { title: "Area Ex Stazione", category: "Urban Renewal", year: "2023", img: "/images/projects/p2.jpg" },
+  { title: "Panificio Tecchiolli", category: "Industrial", year: "2023", img: "/artecno/images/projects/p3.jpg" },
+  { title: "Residenza Aurora", category: "Residential", year: "2022", img: "/artecno/images/projects/p4.jpg" },
+  { title: "Villa Verticale", category: "Architecture", year: "2021", img: "/artecno/images/projects/p1.jpg" },
+  { title: "Area Ex Stazione", category: "Urban Renewal", year: "2023", img: "/artecno/images/projects/p2.jpg" },
 ];
 
 export default function ProjectList() {

@@ -10,16 +10,16 @@ const BrutalistMap = dynamic(() => import("./BrutalistMap"), {
 });
 
 const associates = [
-  { name: "Alessandra Baroncioni", role: "Architetto", img: "/images/associates/alessandra.jpg" },
-  { name: "Fabrizio Morozzi", role: "Architetto", img: "/images/associates/fabrizio.jpg" },
-  { name: "Enrico Forni", role: "Ingegnere", img: "/images/associates/enrico.jpg" },
-  { name: "Francesco Borghigiani", role: "Geometra", img: "/images/associates/francesco.jpg" },
+  { name: "Alessandra Baroncioni", role: "Architetto", img: "/artecno/images/associates/alessandra.jpg" },
+  { name: "Fabrizio Morozzi", role: "Architetto", img: "/artecno/images/associates/fabrizio.jpg" },
+  { name: "Enrico Forni", role: "Ingegnere", img: "/artecno/images/associates/enrico.jpg" },
+  { name: "Francesco Borghigiani", role: "Geometra", img: "/artecno/images/associates/francesco.jpg" },
 ];
 
 const workspacePhotos = [
-  "/images/workplace/office_left.jpg",
-  "/images/workplace/office2.jpg",
-  "/images/workplace/office3.jpg",
+  "/artecno/images/workplace/office_left.jpg",
+  "/artecno/images/workplace/office2.jpg",
+  "/artecno/images/workplace/office3.jpg",
 ];
 
 function AnimatedSubHeader({ title, subtitle, inverse = false }: { title: string, subtitle?: string, inverse?: boolean }) {
@@ -83,7 +83,7 @@ export default function About() {
           
           <div className="relative group overflow-hidden border-4 border-foreground brutalist-shadow bg-accent">
             <img 
-              src="/images/workplace/studio_main.jpg" 
+              src="/artecno/images/workplace/studio_main.jpg" 
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" 
               alt="Office"
             />
