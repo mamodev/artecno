@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+@theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-accent: #38C398;
+  --color-foreground: #000000;
+  --color-background: #FFFFFF;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #000000;
+    --foreground: #ffffff;
   }
 }
 
+/* Brutalist scrollbar */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-left: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
 body {
-  background: var(--background);
+  scrollbar-color: var(--color-accent) #000000;
+  scrollbar-width: auto;
+}
+
+body {
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Brutalist reset */
+* {
+  box-sizing: border-box;
+}
+
+.brutalist-border {
+  border: 2px solid currentColor;
+}
+
+.brutalist-shadow {
+  box-shadow: 4px 4px 0px 0px currentColor;
+}
+
+.brutalist-button {
+  padding: 1rem 2rem;
+  background: white;
+  color: black;
+  border: 2px solid black;
+  box-shadow: 4px 4px 0px 0px black;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.brutalist-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px black;
 }

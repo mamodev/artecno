@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ARTECNO ◤
 
-## Getting Started
+**RAW. BOLD. ARCHITECTURAL.**
 
-First, run the development server:
+Artecno is a brutalist-inspired digital presence for a forward-thinking architectural and design studio. Built with Next.js, it combines stark aesthetics with fluid interactions.
+
+---
+
+## ✦ ARCHITECTURE
+
+- **FRAMEWORK:** [Next.js 15+](https://nextjs.org/) (App Router)
+- **STYLING:** Tailwind CSS (Brutalist presets)
+- **ANIMATIONS:** Framer Motion & GSAP
+- **MAPS:** Custom Brutalist Map Integration
+- **DEPLOYMENT:** GitHub Pages (Static Export)
+
+---
+
+## ✦ FEATURES
+
+### 01 / VISUAL IDENTITY
+A stark, high-contrast visual language that mirrors physical brutalist architecture. Raw textures, bold typography, and a deliberate lack of "polish."
+
+### 02 / FLUID EXPERIENCE
+Despite its rigid appearance, the site flows seamlessly with smooth scrolling (Lenis) and intersection-based reveal animations.
+
+### 03 / PROJECT SHOWCASE
+Dynamic project grid with hover-state reveals, optimized for high-resolution architectural photography.
+
+### 04 / INTERACTIVE STUDIO
+Brutalist map integration and custom cursors that react to the architectural environment.
+
+---
+
+## ✦ RUNNING THE STUDIO
 
 ```bash
+# INSTALL
+npm install
+
+# DEVELOPMENT
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# BUILD (STATIC)
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✦ DEPLOYMENT
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is configured for **GitHub Pages**. Every push to the `main` branch triggers an automated build and deploy via GitHub Actions.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+◤ **ARTECNO** — BUILDING THE FUTURE ON CONCRETE FOUNDATIONS.
